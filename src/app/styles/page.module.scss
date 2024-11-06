@@ -1,0 +1,5 @@
+@use './constants/colors';
+
+.main {
+    background-color: colors.$primary;
+}

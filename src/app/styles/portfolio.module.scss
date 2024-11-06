@@ -1,0 +1,104 @@
+@use './constants/colors';
+@use './constants/breakpoints';
+
+.wrapper {
+    background-color: #d3d3d3;
+    box-shadow: 0px 0px 1rem 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.closeIcon {
+    position: fixed;
+    z-index: 9999;
+    height: max-content;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: colors.$primary;
+    border-radius: 50%;
+    right: 0;
+    transform: translateX(50%);
+    top: 0;
+    margin: 1rem 4rem;
+    box-shadow: 0px 0px 4rem 0px rgba(0, 0, 0, 0.15);
+
+    svg {
+        color: #000000;
+        font-size: 3rem;
+    }
+}
+
+.background {
+    width: 100%;
+    height: auto;
+    background-color: #141414;
+    padding: 0 4rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: colors.$primary;
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        color: colors.$strong_neutral;
+        font-weight: 600;
+        font-size: 1.1rem;
+        transition: 200ms ease-in-out;
+    }
+}
+
+// .navLink:hover p{
+//     color: colors.$primary;
+// }
+
+.navLink {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: breakpoints.$sm) {
+    .closeIcon {
+        margin: 0.5rem 0.5rem;
+        right: 0;
+        transform: translateX(0);
+        top: 0;
+        svg {
+            color: #000000;
+            font-size: 1.5rem;
+        }
+    }
+
+    .background {
+        padding: 0;
+    }
+
+    .navbar {
+        padding: 2rem 0.5rem;
+    }
+    .navLink {
+        font-size: 1.2rem;
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .logo {
+        display: none;
+    }
+}

@@ -1,0 +1,17 @@
+@use './constants/colors';
+
+.container {
+    background-color: colors.$primary;
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    top:0;
+    z-index: 999999;
+}
+
+.thankYou {
+    font-size: 1rem;
+    color: #ffffff;
+}

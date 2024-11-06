@@ -1,0 +1,41 @@
+@use './constants/colors';
+
+.mouse {
+	width: 2em;
+	height: 3.5em;
+	border: 1.5px solid colors.$strong_neutral;
+	border-radius: 2.5em;
+	position: absolute;
+	bottom: 2.5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 99999;
+	&::before {
+		content: '';
+		width: 10px;
+		height: 10px;
+		position: absolute;
+		top: 0.5em;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: colors.$strong_neutral;
+		border-radius: 50%;
+		opacity: 1;
+		animation: wheel 2s infinite;
+		-webkit-animation: wheel 2s infinite;
+	}
+}
+
+@keyframes wheel {
+	to {
+		opacity: 0;
+		top: 2.1em;
+	}
+}
+
+@-webkit-keyframes wheel {
+	to {
+		opacity: 0;
+		top: 2.1em;
+	}
+}

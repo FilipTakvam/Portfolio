@@ -1,0 +1,20 @@
+@use './constants/breakpoints';
+.padding {
+    padding: 0 8rem;
+}
+
+.absolutePadding {
+    top: 1rem; 
+    right: 9rem; 
+}
+
+@media only screen and (max-width: breakpoints.$md) {
+    .padding {
+        padding: 0 1rem;
+    }
+
+    .absolutePadding {
+        top: 0.5rem; 
+        right: 1.5rem; 
+    }
+}
