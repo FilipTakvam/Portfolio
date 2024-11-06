@@ -77,7 +77,7 @@ const About = ({ setIsInView }: SectionProps) => {
           <motion.div className={styles.information} variants={container} initial={'hidden'} animate={animationControls}>
             <motion.div variants={items}>
               <h4>About Me</h4>
-              <p>I am currently in the final year of my master&apos;s program in Industrial Design Engineering at Chalmers University, Gothenburg. My approach in work has always been characterized by a profound curiosity and a dedicated pursuit to find creative, yet achievable, solutions. I consistently explore new areas, from emerging technologies to design philosophies, fostering a comprehensive perspective in my design work. I thrive on challenges that push the boundaries of my current knowledge space, actively seeking opportunities to expand my expertise and refine my skills.</p>
+              <p>I am a designer who recently completed the final year at the master&apos;s program in Industrial Design Engineering at Chalmers University, Gothenburg. My approach in work has always been characterized by a profound curiosity and a dedicated pursuit to find creative, yet achievable, solutions. I consistently explore new areas, from emerging technologies to design philosophies, fostering a comprehensive perspective in my design work. I thrive on challenges that push the boundaries of my current knowledge space, actively seeking opportunities to expand my expertise and refine my skills.</p>
             </motion.div>
 
             <motion.div variants={items}>
