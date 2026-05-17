@@ -40,7 +40,7 @@ export default function SafetyScanningRadar() {
                             background: "linear-gradient(0deg, rgba(187, 184, 189, 1) 0%, rgba(219, 218, 221, 1) 100%)"
                         }}
                     />
-                    <FullscreenVideo src='/SafetyScanningRadar/Turnaround.mp4' setImageCount={setImageCount} />
+                    <FullscreenVideo src='/SafetyScanningRadar/TurnAround.mp4' setImageCount={setImageCount} />
 
                     <PortfolioImage src="/SafetyScanningRadar/DoubleDiamond.png" alt="Image of double diamond process" setImageCount={setImageCount}/>
                     <PortfolioImage src="/SafetyScanningRadar/DesignTimeline.png" alt="Design Timeline" setImageCount={setImageCount}/>
