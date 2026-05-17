@@ -23,8 +23,8 @@ export default function SafetyScanningRadar() {
     return (
         <>
             <div className={styles.background}>
-                {imageCount < 6 &&
-                    <LoadingScreen finishedCount={6} imageCount={imageCount} />
+                {imageCount < 5 &&
+                    <LoadingScreen finishedCount={5} imageCount={imageCount} />
                 }
                 <div className={`${styles.wrapper} wrapper`}>
                     <Link href='/#projects' className={styles.closeIcon}>
