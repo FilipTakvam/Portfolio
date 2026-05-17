@@ -12,11 +12,7 @@
     "@emailjs/browser": "^3.12.1",
     "@vercel/analytics": "^1.2.2",
     "framer-motion": "^10.18.0",
-<<<<<<< HEAD
     "next": "^14.2.35",
-=======
-    "next": "^14.2.15",
->>>>>>> f8e73e1cbe5e16721c99a0b11b60c8b411e5f1dc
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
