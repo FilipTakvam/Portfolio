@@ -77,7 +77,22 @@ const About = ({ setIsInView }: SectionProps) => {
           <motion.div className={styles.information} variants={container} initial={'hidden'} animate={animationControls}>
             <motion.div variants={items}>
               <h4>About Me</h4>
-              <p>I am currently in the final year of my master&apos;s program in Industrial Design Engineering at Chalmers University, Gothenburg. My approach in work has always been characterized by a profound curiosity and a dedicated pursuit to find creative, yet achievable, solutions. I consistently explore new areas, from emerging technologies to design philosophies, fostering a comprehensive perspective in my design work. I thrive on challenges that push the boundaries of my current knowledge space, actively seeking opportunities to expand my expertise and refine my skills.</p>
+              <p>I am currently working as a Diagonstic Engineer and Test Developer for embedded software, with a background in the master&apos;s program in Industrial Design Engineering at Chalmers University, Gothenburg. My approach in work has always been characterized by a profound curiosity and a dedicated pursuit to find creative, yet achievable, solutions. I consistently explore new areas, from emerging technologies to design philosophies, fostering a comprehensive perspective in my design work. I thrive on challenges that push the boundaries of my current knowledge space, actively seeking opportunities to expand my expertise and refine my skills.<br></br><br></br>In my spare time, I usually have one or two ongoing personal projects where I explore new skills, as well as challenge and express myself creatively. These projects often involve electronics, programming, and 3D printing, allowing me to experiment with both hardware and software in practical ways.</p>
+            </motion.div>
+
+            <motion.div variants={items}>
+              <h4>Experience</h4>
+              <h5>Friday, Gothenburg｜<span>2025 - Present</span></h5>
+              <p>Diagnostic Engineer and Test Developer - Assigned to Volvo GTO</p>
+
+              <h5>Volvo Cars, Gothenburg｜<span>2018 - 2025</span></h5>
+              <p>Automotive Crash Test Technician</p>
+
+              <h5 className={styles.notfirsth4}>Lernia, Gothenburg｜<span>2018</span></h5>
+              <p>Automotive Durability Testing Technician - Assigned to Volvo Cars</p>
+
+              <h5 className={styles.notfirsth4}>Volvo Cars, Gothenburg｜<span>2017</span></h5>
+              <p>Internship - R&D of powertrain and propulsion</p>
             </motion.div>
 
             <motion.div variants={items}>
@@ -89,17 +104,6 @@ const About = ({ setIsInView }: SectionProps) => {
               <p>High school Diploma - Orientation of Technology and Design</p>
             </motion.div>
 
-            <motion.div variants={items}>
-              <h4>Experience</h4>
-              <h5>Volvo Cars, Gothenburg｜<span>2018-Present</span></h5>
-              <p>Automotive Crash Test Technician</p>
-
-              <h5 className={styles.notfirsth4}>Lernia, Gothenburg｜<span>2018</span></h5>
-              <p>Automotive Durability Testing Technician - Assigned to Volvo Cars</p>
-
-              <h5 className={styles.notfirsth4}>Volvo Cars, Gothenburg｜<span>2017</span></h5>
-              <p>Internship</p>
-            </motion.div>
           </motion.div>
 
           <motion.div className={styles.sayHelloContainer} animate={talkControls} initial={{ opacity: 0 }}><Link className={styles.sayHello} href="#contact" scroll={true}>Want to get to know me better?</Link></motion.div>

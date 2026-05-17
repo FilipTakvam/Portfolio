@@ -101,7 +101,7 @@ const Contact = () => {
 
       <footer className={styles.footer}>
         <div className={`${styles.footerContainer} wrapper`}>
-          <p>© Copyright 2023 Filip Takvam</p>
+          <p>© Copyright 2026 Filip Takvam</p>
           <div>
             <a href="https://behance.net/filiptakvam"><BiLogoBehance style={{ fontSize: "2rem" }} /></a>
             <a href="https://www.instagram.com/filiptakvam/"><BiLogoInstagram style={{ fontSize: "2rem" }} /></a>
